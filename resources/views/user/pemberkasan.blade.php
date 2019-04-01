@@ -1,17 +1,27 @@
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $('#tables').DataTable();
+} );
+  </script>
+   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+   <script src="https://cdn.datatables.net/1.10.19/js/dataTables.semanticui.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.semanticui.min.css">
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tambahdata">
       Tambah Data
     </button>
     <br>
     <br>
-    <div class="table-responsive">
-      <table class="table">
+      <table id="tables" class="ui celled table" style="width:100%">
        <thead>
         <tr>
-          <th scope="col">Judul</th>
-          <th scope="col">Mata Kuliah</th>
-          <th scope="col">Bobot SKS</th>
-          <th scope="col">Dosen Pengampu</th>
-          <th scope="col" colspan="3">Tindakan</th>
+          <th>Judul</th>
+          <th>Mata Kuliah</th>
+          <th>Bobot SKS</th>
+          <th>Dosen Pengampu</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>

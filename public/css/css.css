@@ -3,12 +3,13 @@
   border: none;
   border-radius: 5px;
   color: white;
+
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 13px;
-  margin: 4px 2px;
+  margin-bottom: 7px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
