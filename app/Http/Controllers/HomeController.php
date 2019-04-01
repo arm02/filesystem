@@ -66,4 +66,9 @@ class HomeController extends Controller
         $data->delete();
         return redirect(url('profile'))->with('alert','Berhasil Menghapus Data!');
     }
+
+    public function pemberkasanindex(){
+        $data = \App\Matakuliah::all();
+        return view('pemberkasan',compact('data'));
+    }
 }

@@ -27,6 +27,7 @@ Route::get('profile','HomeController@profile');
 Route::post('profile/set','HomeController@setprofile');
 Route::post('profile/berkas/set','HomeController@addingberkas');
 Route::get('profile/berkas/hapus/{id}','HomeController@deleteberkas');
+Route::get('pemberkasan','HomeController@pemberkasanindex');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
