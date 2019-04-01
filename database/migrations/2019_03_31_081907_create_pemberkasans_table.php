@@ -18,6 +18,7 @@ class CreatePemberkasansTable extends Migration
             $table->string('judul');
             $table->text('file');
             $table->text('keterangan')->nullable();
+            $table->string('class');
             $table->string('matakuliah');
             $table->string('created_by');
             $table->timestamps();

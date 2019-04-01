@@ -18,6 +18,7 @@ class CreateMataKuliahsTable extends Migration
             $table->string('name');
             $table->string('sks');
             $table->string('dosen');
+            $table->string('class')->nullable();
             $table->timestamps();
         });
     }

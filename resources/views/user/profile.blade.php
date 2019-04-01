@@ -19,7 +19,9 @@
 				<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 					@include('user.datadiri')
 				</div>
-				<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Soon</div>
+				<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+					@include('user.password')
+				</div>
 				<div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
 					@include('user.pemberkasan')
 				</div>

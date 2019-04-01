@@ -23,7 +23,7 @@ Route::get('/unduh/berkas/{filename}', function ($filename)
 });
 
 Route::get('/','HomeController@index');
-Route::get('profile','HomeController@profile');
+Route::get('profile','HomeController@profile')->name('profile');
 Route::post('profile/set','HomeController@setprofile');
 Route::post('profile/berkas/set','HomeController@addingberkas');
 Route::get('profile/berkas/hapus/{id}','HomeController@deleteberkas');
@@ -31,6 +31,8 @@ Route::get('pemberkasan','HomeController@pemberkasanindex');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/ubah', 'HomeController@ubah')->name('password');
+Route::post('/berkas/{id}/', 'HomeController@berkasindex');
 
 Route::group(['middleware' => 'admin'], function(){
 	Route::get('/aaa','HomeController@index');
