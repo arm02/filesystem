@@ -5,7 +5,7 @@ Admin
 @section('content')
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-8">
+    <div class="col-md-9">
           <div class="table-responsive">
             <table class="table" id="example">
               <thead>
@@ -44,9 +44,7 @@ Admin
                </table>
              </div>
              <hr>
-            <li class="list-group-item float-left">
-              <a href="{{url('dataadmin/add')}}" class="btn btn-primary btn-md">Add</a>
-            </li>
+              <a href="{{url('dataadmin/add')}}" class="btn btn-primary btn-md float-right">Add</a>
       </div>
     </div>
   </div>

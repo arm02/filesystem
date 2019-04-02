@@ -28,7 +28,7 @@ Add Mata Kuliah
             placeholder="Kelas" required>
           </div>
           @csrf
-          <button type="submit" class="btn btn-primary btn-md">Add</button>
+          <button type="submit" class="btn btn-primary btn-md float-right">Add</button>
         </form>
   </div>
 </div>

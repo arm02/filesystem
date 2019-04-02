@@ -43,7 +43,7 @@ Add Admin
             placeholder="Role" required>
           </div>
           @csrf
-          <button type="submit" class="btn btn-primary btn-md">Add</button>
+          <button type="submit" class="btn btn-primary btn-md float-right">Add</button>
         </form>
   </div>
 </div>

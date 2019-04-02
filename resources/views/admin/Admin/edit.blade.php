@@ -39,7 +39,7 @@ Edit Admin
             placeholder="Role" required>
           </div>
           @csrf
-          <button type="submit" class="btn btn-primary btn-md">Update</button>
+          <button type="submit" class="btn btn-primary btn-md float-right">Update</button>
         </form>
   </div>
 </div>

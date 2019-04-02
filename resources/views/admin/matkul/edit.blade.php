@@ -26,7 +26,7 @@ Edit Mata Kuliah
           </div>
           @csrf
           <input type="hidden" name="id" value="{{$matkul->id}}">
-          <button type="submit" class="btn btn-primary btn-md">Update</button>
+          <button type="submit" class="btn btn-primary btn-md float-right">Update</button>
         </form>
   </div>
 </div>
